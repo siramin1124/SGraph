@@ -14,7 +14,7 @@ class Widgets(Widget):
 
 class ButtonApp(App):
     def build(self):
-        return Label()
+        return Widgets()
 
 
 if __name__ == "__main__":
